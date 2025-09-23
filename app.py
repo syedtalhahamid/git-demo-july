@@ -15,8 +15,3 @@ if __name__=="__main__":
     app.run(host="127.0.0.1",port=5000)
 
 
-# Keep your local changes (ignore incoming):
-# git merge --strategy-option ours feature
-
-# Keep their branch changes (ignore local):
-# git merge --strategy-option theirs feature
