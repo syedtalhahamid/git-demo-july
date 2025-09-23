@@ -10,8 +10,8 @@ def index():
 def post():
     return render_template("index.html")
 
-@app.route('/poster')
-def posters():
+@app.route('/post/id')
+def poster():
     return render_template("index.html")
 
 if __name__=="__main__":
